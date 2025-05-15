@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Karthik.V10@ibm.com</value>
-    <value name="lastModifiedDate">1747292076165</value>
+    <value name="lastModifiedDate">1747292136729</value>
     <value name="displayName">http</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -71,6 +71,7 @@
         <value name="nodePathForDebug">0</value>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>

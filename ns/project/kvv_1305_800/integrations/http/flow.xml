@@ -457,7 +457,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">http://env8001264.int.webmethods/integration/private/restv2/development/fl77166a817b92b91d1b98b6/restTest/crt</value>
+  <value name="xml">https://env8001264.a-vir-c1.int.ipaas.dev.automation.ibm.com/integration/restv2/development/fl77166a817b92b91d1b98b6/restTest/crt</value>
 </Values>
 </DATA>
 </MAPSET>
