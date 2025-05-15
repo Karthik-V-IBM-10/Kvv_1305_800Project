@@ -127,15 +127,30 @@
         <value name="modifiable">true</value>
       </record>
       <record javaclass="com.wm.util.Values">
-        <value name="node_type">unknown</value>
+        <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
         <value name="field_name">headers</value>
-        <value name="field_type">string</value>
+        <value name="field_type">record</value>
         <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
         <value name="nillable">true</value>
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
+        <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">unknown</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">X-INSTANCE-API-KEY</value>
+            <value name="field_type">string</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+          </record>
+        </array>
+        <value name="modifiable">true</value>
       </record>
       <record javaclass="com.wm.util.Values">
         <value name="node_type">unknown</value>
@@ -357,7 +372,9 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml"></value>
+  <record name="xml" javaclass="com.wm.util.Values">
+    <value name="X-INSTANCE-API-KEY">azI6MjIyOTJmZTctNGZjZS00MjJkLTk2N2ItZjk5NTRkODVmMTk2Ok5ISVBCNW5oOUxodlplVDBWUnNtOTdqZjlTVUd1cW1kYzA4bG9TVjhhLzg9</value>
+  </record>
 </Values>
 </DATA>
 </MAPSET>
