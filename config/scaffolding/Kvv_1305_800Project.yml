@@ -8,6 +8,14 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
+- serviceName: project.kvv_1305_800.integrations:http
+  packages:
+  - name: Kvv_1305_800Project
+    version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2055
 - serviceName: project.kvv_1305_800.integrations:refdaf
   packages:
   - name: Kvv_1305_800Project
